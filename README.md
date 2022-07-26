@@ -22,7 +22,7 @@ An easy to use wrapper for adding, removing and reading Codable objects to/from 
 
 ### CocoaPods
 
-To integrate Router into your Xcode project with CocoaPods, specify it in your `Podfile`:
+To integrate Keychain into your Xcode project with CocoaPods, specify it in your `Podfile`:
 
 ```ruby
 pod 'Shakuro.Keychain'
