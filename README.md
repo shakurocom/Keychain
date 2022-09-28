@@ -10,7 +10,7 @@
 - [Usage](#usage)
 - [License](#license)
 
-An easy to use wrapper for adding, removing and reading Codable objects to/from Keychain.
+An easy-to-use wrapper that allows the user to add, remove, and read Codable objects from Keychain.
 
 ## Requirements
 
@@ -48,6 +48,5 @@ Shakuro.Keychain is released under the MIT license. [See LICENSE](https://github
 
 ## Give it a try and reach us
 
-Star this tool if you like it, it will help us grow and add new useful things. 
-Feel free to reach out and hire our team to develop a mobile or web project for you.
+Star this tool if you like it. This will help us grow and add new useful things. Feel free to reach out and hire our team to develop a mobile or web project for you.
 
