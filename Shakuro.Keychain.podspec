@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
     s.name             = 'Shakuro.Keychain'
-    s.version          = '1.0.0'
+    s.version          = '1.0.1'
     s.summary          = 'Keychain'
     s.homepage         = 'https://github.com/shakurocom/Keychain'
     s.license          = { :type => "MIT", :file => "LICENSE.md" }
@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
     s.source           = { :git => 'https://github.com/shakurocom/Keychain.git', :tag => s.version }
     s.swift_versions   = ['5.1', '5.2', '5.3', '5.4', '5.5', '5.6']
     s.source_files     = 'Source/*'
-    s.ios.deployment_target = '11.0'
+    s.ios.deployment_target = '15.0'
 
 end
