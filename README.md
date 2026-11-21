@@ -34,6 +34,23 @@ Then, run the following command:
 $ pod install
 ```
 
+### Swift Package Manager
+
+Add the package to the `dependencies` of your `Package.swift`:
+
+```swift
+.package(url: "https://github.com/shakurocom/Keychain.git", from: "1.0.1")
+```
+
+and the product to your target:
+
+```swift
+.product(name: "Keychain", package: "Keychain")
+```
+
+In Xcode, use File > Add Package Dependencies… with `https://github.com/shakurocom/Keychain.git`.
+With SPM the module is `Keychain` (`import Keychain`); with CocoaPods it is `Shakuro_Keychain`.
+
 ### Manually
 
 If you prefer not to use CocoaPods, you can integrate Shakuro.Keychain simply by copying it to your project.
